@@ -1,0 +1,71 @@
+# ---> .NET / C#
+bin/
+obj/
+out/
+Debug/
+Release/
+[Bb]uild/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.vspscc
+*.vssscc
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.jfm
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+packages/
+# except build/
+!packages/build/
+
+# EF Core
+Migrations/obj/
+Migrations/bin/
+
+# Logs
+*.log
+logs/
+
+# dotenv / local configs
+*.env
+*.env.local
+appsettings.Development.json
+appsettings.Local.json
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Coverage / testing
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.testsettings
+*.vsmdi
+_Reports/
+coverage/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db

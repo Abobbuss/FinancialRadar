@@ -1,0 +1,6 @@
+@Detector.Service_HostAddress = http://localhost:5068
+
+GET {{Detector.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
