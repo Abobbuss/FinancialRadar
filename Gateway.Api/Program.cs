@@ -1,15 +1,21 @@
-var builder = WebApplication.CreateBuilder(args);
+using Gateway.Api.Persistence;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+var cs = builder.Configuration.GetConnectionString("Db");
+
+builder.Services.AddDbContext<AppDbContext>(opt =>
+{
+    opt.UseNpgsql(cs);
+    opt.UseSnakeCaseNamingConvention();
+});
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
