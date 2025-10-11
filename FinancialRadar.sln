@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detector.Service", "Detecto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionGenerator.Core", "TransactionGenerator.Core\TransactionGenerator.Core.csproj", "{1FF41A4F-4DED-402C-9F74-65D7EB9E9D40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rules.Abstractions", "Rules.Abstractions\Rules.Abstractions.csproj", "{C5E67E3E-CE0A-4CD4-B915-1A5C0E9CFF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rules.Engine", "Rules.Engine\Rules.Engine.csproj", "{D443D0D8-60F0-4309-98E9-793E759DFBDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{1FF41A4F-4DED-402C-9F74-65D7EB9E9D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF41A4F-4DED-402C-9F74-65D7EB9E9D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF41A4F-4DED-402C-9F74-65D7EB9E9D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E67E3E-CE0A-4CD4-B915-1A5C0E9CFF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E67E3E-CE0A-4CD4-B915-1A5C0E9CFF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E67E3E-CE0A-4CD4-B915-1A5C0E9CFF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E67E3E-CE0A-4CD4-B915-1A5C0E9CFF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D443D0D8-60F0-4309-98E9-793E759DFBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D443D0D8-60F0-4309-98E9-793E759DFBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D443D0D8-60F0-4309-98E9-793E759DFBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D443D0D8-60F0-4309-98E9-793E759DFBDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

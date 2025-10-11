@@ -27,6 +27,11 @@ public class PolicyConstant
     /// Машинное описание LIMIT_NO_PIN, MICRO_N...
     /// </summary>
     public string Code { get; set; } = default!;
+    
+    /// <summary>
+    /// Значение константы
+    /// </summary>
+    public string Value { get; set; } = default!;
 
     /// <summary>
     /// Описание для UI
